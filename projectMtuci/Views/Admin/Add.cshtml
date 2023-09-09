@@ -1,0 +1,48 @@
+﻿@model projectMtuci.Domain.ViewModels.Subject.AddSubjectViewModel
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+@if (User.IsInRole("Admin     "))
+{
+	<h1>Добавить новую работу</h1>
+
+<div>
+	<div class="container">
+		<form method="post" enctype="multipart/form-data">
+			<div class="mb-3">
+				<label for="name">Выберите предмет:</label>
+					<select id="name" name="name" asp-for="@Model.Name">
+						  <option value="Физика">Физика</option>
+						  <option value="ВвИТ">ВвИТ</option>
+						  <option value="MathDb">Математические основы баз данных</option>
+						  <option value="Devops">Devops</option>						  
+					</select>
+			</div>
+			<div class="mb-3">
+				<label for="course">Выберите курс:</label>
+					<select id="course" name="course" asp-for="@Model.Course">
+						  <option value="1">1</option>
+						  <option value="2">2</option>
+						  <option value="3">3</option>
+						  <option value="4">4</option>
+					</select>
+			</div>
+			<div class="mb-3">
+				<label for="degree">Бакалавриат/Магистратура</label>
+					<select id="degree" name="degree" asp-for="@Model.Degree">
+						  <option value="Бакалавриат">Бакалавриат</option>
+						  <option value="Магистратура">Магистратура</option>
+					</select>
+			</div>
+			<div class="mb-3">
+				<input type="file" asp-for="@Model.Upload"/>
+			</div>
+			<button>Submit</button>
+			
+		</form>
+	</div>
+</div>
+}

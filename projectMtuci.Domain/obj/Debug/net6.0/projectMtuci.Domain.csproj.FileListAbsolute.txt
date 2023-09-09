@@ -1,0 +1,12 @@
+C:\Users\dvory\source\repos\projectMtuci.Domain\bin\Debug\net6.0\projectMtuci.Domain.deps.json
+C:\Users\dvory\source\repos\projectMtuci.Domain\bin\Debug\net6.0\projectMtuci.Domain.dll
+C:\Users\dvory\source\repos\projectMtuci.Domain\bin\Debug\net6.0\projectMtuci.Domain.pdb
+C:\Users\dvory\source\repos\projectMtuci.Domain\obj\Debug\net6.0\projectMtuci.Domain.csproj.AssemblyReference.cache
+C:\Users\dvory\source\repos\projectMtuci.Domain\obj\Debug\net6.0\projectMtuci.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dvory\source\repos\projectMtuci.Domain\obj\Debug\net6.0\projectMtuci.Domain.AssemblyInfoInputs.cache
+C:\Users\dvory\source\repos\projectMtuci.Domain\obj\Debug\net6.0\projectMtuci.Domain.AssemblyInfo.cs
+C:\Users\dvory\source\repos\projectMtuci.Domain\obj\Debug\net6.0\projectMtuci.Domain.csproj.CoreCompileInputs.cache
+C:\Users\dvory\source\repos\projectMtuci.Domain\obj\Debug\net6.0\projectMtuci.Domain.dll
+C:\Users\dvory\source\repos\projectMtuci.Domain\obj\Debug\net6.0\refint\projectMtuci.Domain.dll
+C:\Users\dvory\source\repos\projectMtuci.Domain\obj\Debug\net6.0\projectMtuci.Domain.pdb
+C:\Users\dvory\source\repos\projectMtuci.Domain\obj\Debug\net6.0\ref\projectMtuci.Domain.dll

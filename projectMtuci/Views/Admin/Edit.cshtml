@@ -1,0 +1,8 @@
+﻿@model projectMtuci.Domain.Entity.Subject
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<h>@Model.Id</h>
+<a asp-controller="Admin" asp-action="Delete" asp-route-id=@Model.Id>Delete</a>

@@ -1,0 +1,36 @@
+﻿@model List<projectMtuci.Domain.Entity.Subject>
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+@if (User.IsInRole("Admin     "))
+{
+	<div class="container">
+	<table class="table">
+		<thead>
+			<tr>
+				<td>Id</td>
+				<td>Name</td>
+				<td>Degree</td>
+				<td>Course</td>
+				<td>Path</td>
+			</tr>
+		</thead>
+		<tbody>
+			@foreach(var subject in Model)
+			{
+			<tr>
+				<td>@subject.Id</td>
+				<td>@subject.Name</td>
+				<td>@subject.Degree</td>
+				<td>@subject.Course</td>
+				<td>@subject.PathToFile</td>
+				<td><a asp-controller="Admin" asp-action="Edit" asp-route-id=@subject.Id>Посмотреть</a></td>
+			</tr>
+			}
+		</tbody>
+	</table>
+</div>
+}

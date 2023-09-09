@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "xnyCy7xlgqTpeGwWo06b3Ll5Cq0RP0rnJEMTGHSmHjxr7bFn7AnvB/hm+q4PV9lC/M/dkj6kinLZ0l3cRPDMwg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\dvory\\source\\repos\\projectMtuci.Domain\\projectMtuci.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\dvory\\.nuget\\packages\\microsoft.aspnetcore.http.features\\5.0.17\\microsoft.aspnetcore.http.features.5.0.17.nupkg.sha512",
+    "C:\\Users\\dvory\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.1\\microsoft.extensions.primitives.5.0.1.nupkg.sha512",
+    "C:\\Users\\dvory\\.nuget\\packages\\system.io.pipelines\\5.0.2\\system.io.pipelines.5.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}
